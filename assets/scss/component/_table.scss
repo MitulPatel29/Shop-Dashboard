@@ -1,0 +1,40 @@
+.table th,
+.table td {
+  vertical-align: middle;
+}
+
+.table {
+  tbody {
+    tr {
+      td {
+        // border: 0;
+        // padding: 0.5rem;
+        // font-weight: 600;
+        &:first-child {
+          border-top-left-radius: $thead-border-radius;
+          border-bottom-left-radius: $thead-border-radius;
+        }
+        &:last-child {
+          border-top-right-radius: $thead-border-radius;
+          border-bottom-right-radius: $thead-border-radius;
+        }
+      }
+    }
+  }
+}
+
+
+// .table {
+//   thead {
+//     tr {
+//       th {
+//         min-width: 127px;
+//         // min-width: 300px;
+//       }
+//     }
+//   }
+// }
+th ,td{
+    min-width: 127px;
+    // min-width: 300px;
+  }

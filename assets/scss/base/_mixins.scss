@@ -1,0 +1,13 @@
+@mixin square-color($value,$color) {
+    .square-#{$value} {
+        color: $color;
+        background-color: rgba($color, 0.12);
+    }
+}
+@mixin square-colors($value,$color) {
+    .custom-progress-#{$value} {
+        color: $color;
+        $light-color: rgba($color, 0.35);
+        background: linear-gradient(to right, $color,$light-color);
+    }
+}

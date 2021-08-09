@@ -1,0 +1,52 @@
+// Colors
+
+
+// $red: #db3634;
+// $green: #69c078;
+// $blue: #1e69dd;
+
+// gray-used in placeholder of search
+ $gray-100:#b7bec6;
+// $gray-200:#b9b9b9;
+// $gray-400: #979899;
+
+$light: #6a7a89;
+$table-accent-bg:#f9fbfe;
+$primary-medium:#63b4ff;
+// Theme colors
+$primary:   #2697ff;
+$dark-blue:#0d4487;
+$light-blue:#26e5ff;
+$secondary: #fafafb;
+$warning:#ffa113;
+$yellow: #ffcf26;
+$danger:   #ff4343;
+$info:#19e9aa;
+$dark:#0c2133;
+
+
+// $danger-light: lighten($danger,30%);
+ $primary-light:rgba($primary, 0.12);
+$warning-light:rgba($warning, 0.12);
+$dark-blue-light:rgba($dark-blue, 0.12);
+
+
+// Theme Map
+$theme-colors: ();
+$theme-colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "danger": $danger,
+    "warning":$warning,
+    "yellow":$yellow,
+    "dark":$dark,
+    "dark-blue":$dark-blue,
+    "info":$info,
+    "light":$light,
+    "light-blue":$light-blue,
+    "primary-light":$primary-light,
+    "warning-light":$warning-light,
+    "dark-blue-light":$dark-blue-light,
+    // "danger-light": $danger-light,
+);
+
